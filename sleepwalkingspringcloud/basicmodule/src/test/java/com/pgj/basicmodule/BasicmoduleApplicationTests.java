@@ -24,7 +24,7 @@ public class BasicmoduleApplicationTests {
     @Test
     public void contextLoads() throws IOException, XMLParserException, InvalidConfigurationException, SQLException, InterruptedException {
         List warnings = new ArrayList();
-// 根据配置文件生成相应的实体类、mapper文件
+        // 根据配置文件生成相应的实体类、mapper文件
         Configuration config = new ConfigurationParser(warnings).parseConfiguration(new File(BasicmoduleApplicationTests.class.getResource("/mybatis-generator.xml").getPath()));
         new MyBatisGenerator(config, new DefaultShellCallback(true), warnings).generate(null);
     }

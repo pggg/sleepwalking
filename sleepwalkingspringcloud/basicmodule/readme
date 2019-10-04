@@ -1,0 +1,5 @@
+备注：以后有时间优化点
+1.生成代码添加service和controller生成，模板freemark
+2.密码加盐
+3.前后端加密rsa 公钥私钥保存不可见
+https://www.cnblogs.com/nanyangke-cjz/p/5898361.html

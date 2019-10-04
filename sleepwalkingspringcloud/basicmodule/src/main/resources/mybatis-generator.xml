@@ -39,7 +39,7 @@
         </javaModelGenerator>
 
         <!--对应的mapper.xml文件 -->
-        <sqlMapGenerator targetPackage="com.pgj.basicmodule.dao"
+        <sqlMapGenerator targetPackage="mapping"
                          targetProject="./src/main/resources">
             <property name="enableSubPackages" value="true" />
         </sqlMapGenerator>
@@ -51,7 +51,7 @@
         </javaClientGenerator>
 
         <!-- 数据表与Bean的映射 -->
-        <table tableName="user" domainObjectName="User" />
+        <table tableName="amount" domainObjectName="Amount" />
         <table tableName="dream" domainObjectName="Dream" />
         <table tableName="grade" domainObjectName="Grade" />
         <table tableName="role" domainObjectName="Role" />

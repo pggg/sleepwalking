@@ -1,6 +1,7 @@
 package com.pgj.basicmodule.model;
 
 import java.io.Serializable;
+
 public class Grade implements Serializable {
     private Integer gradeId;
 

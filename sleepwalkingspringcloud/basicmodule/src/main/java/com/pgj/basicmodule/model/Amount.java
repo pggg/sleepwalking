@@ -2,10 +2,10 @@ package com.pgj.basicmodule.model;
 
 import java.io.Serializable;
 
-public class User implements Serializable {
-    private Long userId;
+public class Amount implements Serializable {
+    private Long amountId;
 
-    private String userName;
+    private String amountName;
 
     private Integer phone;
 
@@ -21,20 +21,20 @@ public class User implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
-    public Long getUserId() {
-        return userId;
+    public Long getAmountId() {
+        return amountId;
     }
 
-    public void setUserId(Long userId) {
-        this.userId = userId;
+    public void setAmountId(Long amountId) {
+        this.amountId = amountId;
     }
 
-    public String getUserName() {
-        return userName;
+    public String getAmountName() {
+        return amountName;
     }
 
-    public void setUserName(String userName) {
-        this.userName = userName == null ? null : userName.trim();
+    public void setAmountName(String amountName) {
+        this.amountName = amountName == null ? null : amountName.trim();
     }
 
     public Integer getPhone() {
